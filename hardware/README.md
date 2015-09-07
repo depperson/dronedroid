@@ -7,6 +7,11 @@ Files
 - rustler-plate.stl contains the compiled 3d output for printing
 
 
-Printing
---------
+3D Printing
+-----------
 Print in ABS with dimensions of 140mm x 210mm. All OpenSCAD dimensions are in mm.
+
+
+PCB Manufacture
+---------------
+See [https://oshpark.com/projects/OVnCkmHx](https://oshpark.com/projects/OVnCkmHx)
