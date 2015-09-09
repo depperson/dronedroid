@@ -45,7 +45,7 @@ difference() {
 
 }
 
-
+color("blue")
 // rear supports
 difference()
 {
@@ -75,7 +75,46 @@ difference()
     }
 }
 
+// right support reinforcements
+color("red")
+translate([30,15,1])
+rotate([90,180,0])
+linear_extrude(height = 5, center = true) 
+polygon(points=[[0,0], [10,0], [10,20]]);
 
+color("red")
+translate([7,28,1])
+rotate([90,180,120])
+linear_extrude(height = 5, center = true) 
+polygon(points=[[0,0], [10,0], [10,20]]);
+
+color("red")
+translate([7,2,1])
+rotate([90,180,240])
+linear_extrude(height = 5, center = true) 
+polygon(points=[[0,0], [10,0], [10,20]]);
+
+
+// left support reinforcements
+color("red")
+translate([30,125,1])
+rotate([90,180,0])
+linear_extrude(height = 5, center = true) 
+polygon(points=[[0,0], [10,0], [10,20]]);
+
+color("red")
+translate([7,138,1])
+rotate([90,180,120])
+linear_extrude(height = 5, center = true) 
+polygon(points=[[0,0], [10,0], [10,20]]);
+
+color("red")
+translate([7,112,1])
+rotate([90,180,240])
+linear_extrude(height = 5, center = true) 
+polygon(points=[[0,0], [10,0], [10,20]]);
+
+color("blue")
 // front support
 difference()
 {
@@ -91,3 +130,22 @@ difference()
     translate([177, 100])
     circle(3, $fn=50);
 }
+
+// front support reinforcements
+color("red")
+translate([192,100,1])
+rotate([90,180,0])
+linear_extrude(height = 5, center = true) 
+polygon(points=[[0,0], [10,0], [10,20]]);
+
+color("red")
+translate([169,113,1])
+rotate([90,180,120])
+linear_extrude(height = 5, center = true) 
+polygon(points=[[0,0], [10,0], [10,20]]);
+
+color("red")
+translate([169,87,1])
+rotate([90,180,240])
+linear_extrude(height = 5, center = true) 
+polygon(points=[[0,0], [10,0], [10,20]]);
