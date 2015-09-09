@@ -31,6 +31,18 @@ difference() {
     // front bolt hole
     translate([177, 100])
     circle(3, $fn=50);
+    
+    // ioio holes
+    translate([140, 105]) circle(2, $fn=50);
+    translate([133, 82])  circle(2, $fn=50);
+    translate([75,  120]) circle(2, $fn=50);
+    translate([68,  97])  circle(2, $fn=50);    
+    
+    // phone mounts
+    translate([205, 80]) circle(2, $fn=50);    
+    translate([205, 60]) circle(2, $fn=50);    
+    translate([75,  30]) circle(2, $fn=50);
+
 }
 
 
