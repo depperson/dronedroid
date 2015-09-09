@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBoxPreference android:title="Location Trace"
+        android:defaultValue="false"
+        android:summary="Trace the received locations on the map"
+        android:key="locationtrace" />
+
+    <EditTextPreference android:title="Navigation Accuracy"
+        android:key="navaccuracy"
+        android:defaultValue="10"
+        android:summary="GPS accuracy requirement for throttle" />
+
+    <EditTextPreference android:title="PWM frequency"
+        android:key="pmwfreq"
+        android:defaultValue="100"
+        android:summary="Older servos use 50, newer use 100" />
+
+    <EditTextPreference android:title="Steering Max"
+        android:key="steermax"
+        android:defaultValue="360"
+        android:summary="PWM steering range size" />
+
+    <EditTextPreference android:title="Steering Trim"
+        android:key="steertrim"
+        android:defaultValue="1500"
+        android:summary="PWM for centered steering" />
+
+    <EditTextPreference android:title="Stuck Reverse Time"
+        android:key="reversetime"
+        android:defaultValue="1000"
+        android:summary="Milliseconds in reverse after getting stuck" />
+
+    <EditTextPreference android:title="Stuck Time"
+        android:key="stucktime"
+        android:defaultValue="15"
+        android:summary="Number of IOIO loops without movement" />
+
+    <EditTextPreference android:title="Throttle Max"
+        android:key="throttlemax"
+        android:defaultValue="100"
+        android:summary="PWM for full throttle" />
+
+    <EditTextPreference android:title="Throttle Trim"
+        android:key="throttletrim"
+        android:defaultValue="1500"
+        android:summary="PWM for ESC neutral" />
+
+    <EditTextPreference android:title="Waypoint Proximity"
+        android:key="navproximity"
+        android:defaultValue="2"
+        android:summary="Distance to acquire waypoint in meters" />
+
+    <ListPreference     android:title="Waypoints File"
+        android:summary="Select which waypoint list to use"
+        android:key="waypointfile"
+        android:defaultValue="1"
+        android:entries="@array/waypoint_list_names"
+        android:entryValues="@array/waypoint_list_files" />
+
+</PreferenceScreen>

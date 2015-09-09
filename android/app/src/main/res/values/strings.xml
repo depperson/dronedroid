@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">DroneDroid</string>
+    <string name="google_maps_key">TODO</string>
+    <string name="title_activity_prefs">Preferences</string>
+
+    <string-array name="waypoint_list_names">
+        <item>One</item>
+        <item>Two</item>
+        <item>Three</item>
+        <item>Four</item>
+        <item>Five</item>
+    </string-array>
+
+    <string-array name="waypoint_list_files">
+        <item>sdcard/waypoint_list.csv</item>
+        <item>sdcard/waypoint_list2.csv</item>
+        <item>sdcard/waypoint_list3.csv</item>
+        <item>sdcard/waypoint_list4.csv</item>
+        <item>sdcard/waypoint_list5.csv</item>
+    </string-array>
+</resources>

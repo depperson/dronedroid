@@ -1,0 +1,66 @@
+<fragment xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/map"
+    tools:context=".MapsActivity"
+    android:name="com.google.android.gms.maps.SupportMapFragment"
+    tools:layout="@layout/activity_maps">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|top"
+        android:text="start"
+        android:id="@+id/go_btn"
+        android:padding="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="#ffff1111"
+        android:onClick="go_button_pressed"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|top"
+        android:text="preferences"
+        android:padding="20dp"
+        android:layout_marginTop="10dp"
+        android:background="#ffe3d2d2"
+        android:onClick="prefs_button_pressed"/>
+
+    <Button
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="right|top"
+        android:text="+"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="10dp"
+        android:background="#ffe3d2d2"
+        android:onClick="add_button_pressed"/>
+
+    <Button
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="right|top"
+        android:text="-"
+        android:layout_marginTop="110dp"
+        android:layout_marginRight="10dp"
+        android:background="#ffe3d2d2"
+        android:onClick="del_button_pressed"/>
+
+    <TextView
+        android:layout_gravity="center|bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text"
+        android:text="hdg_err"
+        android:fontFamily="Arial"
+        android:typeface="serif"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#ffff1111"
+        android:background="#ff000000"
+        android:textColorHighlight="#000000" />
+
+</fragment>
