@@ -29,7 +29,7 @@ difference() {
     circle(3, $fn=50);
     
     // front bolt hole
-    translate([180, 100])
+    translate([177, 100])
     circle(3, $fn=50);
 }
 
@@ -70,12 +70,12 @@ difference()
     // front
     translate([0,0,-10])
     linear_extrude(height = 20, center = true) 
-    translate([180, 100])
+    translate([177, 100])
     circle(6, $fn=50);
     
     // front tunnel
     translate([0,0,-7])
     linear_extrude(height = 20, center = true) 
-    translate([180, 100])
+    translate([177, 100])
     circle(3, $fn=50);
 }
