@@ -14,4 +14,15 @@ Print in ABS with dimensions of 140mm x 210mm. All OpenSCAD dimensions are in mm
 
 PCB Manufacture
 ---------------
-See [https://oshpark.com/projects/OVnCkmHx](https://oshpark.com/projects/OVnCkmHx)
+IOIOcar r1 @ OSHPark [https://oshpark.com/projects/OVnCkmHx](https://oshpark.com/projects/OVnCkmHx)
+IOIOcar r2 in progress
+
+
+IOIO Pin | IOIOcar Function
+---------|-----------------
+3        | UART RX (gps tx)
+4        | UART TX (unused)
+39       | Servo power relay
+40       | ESC PWM output
+41       | Servo PWM output
+
