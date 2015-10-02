@@ -1,0 +1,10 @@
+board part, digikey part no., description, quantitiy, unit price, total cost
+RELAY, JQC-3F?, SPST Power Relay, 1, 0.54, 0.54
+R1, 10KQBK-ND, 1/4 watt 10k ohm through-hole resistor, 1, 0.10, 0.10
+R2, 10KQBK-ND, 1/4 watt 10k ohm through-hole resistor, 1, 0.10, 0.10
+R3, 1.1KQBK-ND, 1/4 watt 1k ohm through-hole resistor, 1, 0.10, 0.10
+U1, 732-5336-ND, right-angle 1X3 .100 pitch male header, 1, 0.35, 0.35
+U2, 732-5336-ND, right-angle 1X3 .100 pitch male header, 1, 0.35, 0.35
+GPS, 609-3461-ND, straight 1X3 .100 pitch male header, 1, 0.26, 0.26
+IOIO-L, 609-3364-ND	straight 16X3 .100 pitch male header, 1, 0.98, 0.98
+IOIO-R, 609-3273-ND, straight 8X3 .100 pitch male header, 1, 0.43, 0.43
